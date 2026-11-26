@@ -1,0 +1,26 @@
+{
+  "status": "ACTUAL MODEL PILOT",
+  "runs_completed": 1,
+  "expected_runs": 7,
+  "test_groups": 60,
+  "test_templates": 3,
+  "table": [
+    {
+      "run": "A",
+      "original_accuracy": 0.0,
+      "invariant_all_correct": 0.0,
+      "edit_pair_correct": 0.0,
+      "group_all_correct": 0.0,
+      "all_item_accuracy": 0.0,
+      "parseable": 68,
+      "total_items": 240,
+      "format_failure_rate": 0.7166666666666667,
+      "numeric_accuracy_among_parseable": 0.0,
+      "token_cap_fraction": 0.31666666666666665,
+      "inference_seconds": 504.68959933309816,
+      "generated_tokens": 2546
+    }
+  ],
+  "paired_comparisons": [],
+  "caveat": "Three template clusters and two training seeds; exploratory only. Format and truncation confounds must be considered. No diversity-matched baseline."
+}

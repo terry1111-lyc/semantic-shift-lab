@@ -1,0 +1,67 @@
+{
+  "is_demo": true,
+  "status": "DEMONSTRATION ONLY",
+  "dataset_sha256": "ecaef671ad1dc03d995de84732f5dab023fec7fe4dd433e04efb1a3d582b7cee",
+  "validation": {
+    "records": 36,
+    "groups": 9,
+    "templates": 3,
+    "unreviewed_records": 36
+  },
+  "metrics": {
+    "original_accuracy": {
+      "value": 1.0,
+      "template_cluster_bootstrap_95ci": [
+        1.0,
+        1.0
+      ]
+    },
+    "invariant_all_correct": {
+      "value": 0.3333333333333333,
+      "template_cluster_bootstrap_95ci": [
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "edit_pair_correct": {
+      "value": 0.8888888888888888,
+      "template_cluster_bootstrap_95ci": [
+        0.6666666666666666,
+        1.0
+      ]
+    },
+    "group_all_correct": {
+      "value": 0.2222222222222222,
+      "template_cluster_bootstrap_95ci": [
+        0.0,
+        0.3333333333333333
+      ]
+    }
+  },
+  "format_failure_rate": 0.08333333333333333,
+  "output_tokens_total": null,
+  "token_coverage": 0.0,
+  "by_family": {
+    "comparison": {
+      "original_accuracy": 1.0,
+      "invariant_all_correct": 0.3333333333333333,
+      "edit_pair_correct": 1.0,
+      "group_all_correct": 0.3333333333333333
+    },
+    "groups": {
+      "original_accuracy": 1.0,
+      "invariant_all_correct": 0.3333333333333333,
+      "edit_pair_correct": 0.6666666666666666,
+      "group_all_correct": 0.0
+    },
+    "transfer": {
+      "original_accuracy": 1.0,
+      "invariant_all_correct": 0.3333333333333333,
+      "edit_pair_correct": 1.0,
+      "group_all_correct": 0.3333333333333333
+    }
+  },
+  "uncertainty_note": "Exploratory percentile bootstrap over template IDs; few templates give unreliable population uncertainty. Not a training-seed CI.",
+  "model": "label-aware-fault-injector",
+  "backend": "demo"
+}

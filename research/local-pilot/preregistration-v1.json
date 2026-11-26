@@ -1,0 +1,52 @@
+{
+  "status": "preregistered local pilot, no outcomes inspected at registration",
+  "model": "Qwen/Qwen3-0.6B",
+  "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "dataset_sha256": "681e29beaeb87b281539f4c5698f2acb63545ac55309800cae2881180d9acc2b",
+  "dataset_seed": 20261125,
+  "per_template": 20,
+  "test_groups": 60,
+  "test_templates": 3,
+  "arms": [
+    "A",
+    "B",
+    "C",
+    "E"
+  ],
+  "training_seeds": [
+    17,
+    29
+  ],
+  "training_token_budget_per_arm": 6144,
+  "learning_rate": 0.0001,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "max_length": 512,
+  "target_modules": [
+    "q_proj",
+    "v_proj"
+  ],
+  "max_steps": 150,
+  "decoding": "greedy",
+  "thinking": false,
+  "max_new_tokens": 96,
+  "batch_size": 4,
+  "primary_endpoint": "group_all_correct",
+  "primary_comparison": "E versus C, paired same groups",
+  "secondary_endpoints": [
+    "original_accuracy",
+    "invariant_all_correct",
+    "edit_pair_correct",
+    "format_failure_rate"
+  ],
+  "development_timing": "One group from each development template (12 records) may be used for speed/compatibility only. Do not tune on test outcomes.",
+  "resource_rule": "Start on CPU. Finish baseline then B/C/E seeds 17 and 29 if runtime is practical. Record any curtailed run and reason. No paid compute authorized.",
+  "limitations": [
+    "Only 3 test template clusters; uncertainty exploratory.",
+    "No independent human data review.",
+    "Pilot arms do not match unique-example diversity.",
+    "No RL, external benchmark or second model family.",
+    "Small training budgets do not establish converged method performance."
+  ],
+  "stopping_rule": "No outcome-based early stop or example selection. Hardware/software failures may pause a run; document them."
+}

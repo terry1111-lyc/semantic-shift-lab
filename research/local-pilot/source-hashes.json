@@ -1,0 +1,7 @@
+{
+  "research/run_local_study.py": "270ec2176594448cedb6d9c52abd3a671489032189c84cb38575c31d933bae92",
+  "semantic_shift/training.py": "06556aa6f653aeb8294c9c4e61cae2fc7a1012a14f7092e3e9d66754ea087f99",
+  "semantic_shift/models.py": "bcd54deb4e0386da2dfc9a8eb4ea7d1130c6c07a9e1d761a4ded30409c1384ce",
+  "semantic_shift/evaluation.py": "7d480cdef8bb71315d17d701da34e2c78c10a89622fd0b3be4a14f26405fa687",
+  "semantic_shift/data.py": "02c5beacc38b6688ea44a07bfa61e1ed4c742ce20cd6b89fdff988696aefa5c7"
+}

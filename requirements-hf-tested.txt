@@ -1,0 +1,8 @@
+# Main libraries used for the CPU smoke test and Qwen3-0.6B pilot; not a full transitive lockfile.
+# Use an isolated Python 3.13 environment. Platform wheel availability may vary.
+torch==2.15.0
+transformers==5.24.0
+peft==0.22.0
+accelerate==1.16.0
+tokenizers==0.23.3
+safetensors==0.8.0

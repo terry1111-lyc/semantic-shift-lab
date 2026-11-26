@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the version and repository commit you actually used. This is software, not a published paper."
+title: "Semantic Shift Lab"
+type: software
+version: 0.2.0
+license: MIT
+authors:
+  - name: "Semantic Shift Lab contributors"
+abstract: "A research pilot for answer invariance and sensitivity under controlled language and fact edits."

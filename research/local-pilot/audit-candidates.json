@@ -1,0 +1,2402 @@
+[
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0000/original",
+    "prompt": "Lin has 43 cards, receives 2 cards, then receives 12 cards. How many cards does Lin have?",
+    "gold": 57,
+    "variant": "original",
+    "raw_output": "43 + 2 + 12 = 57",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0000/paraphrase",
+    "prompt": "Lin adds two gifts of 2 and 12 cards to an initial collection of 43. How many cards are there now?",
+    "gold": 57,
+    "variant": "paraphrase",
+    "raw_output": "43 + 2 + 12 = 57",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0000/reorder",
+    "prompt": "A second gift contains 12 cards and the first contains 2. Lin had 43 cards before receiving both. How many now?",
+    "gold": 57,
+    "variant": "reorder",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0000/edit",
+    "prompt": "Lin has 43 cards, receives 2 cards, then gives away 12 cards. How many cards does Lin have?",
+    "gold": 33,
+    "variant": "edit",
+    "raw_output": "23",
+    "parsed": 23,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0001/original",
+    "prompt": "Lin has 34 cards, receives 12 cards, then receives 6 cards. How many cards does Lin have?",
+    "gold": 52,
+    "variant": "original",
+    "raw_output": "34 + 12 + 6 = 52",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0001/paraphrase",
+    "prompt": "Lin adds two gifts of 12 and 6 cards to an initial collection of 34. How many cards are there now?",
+    "gold": 52,
+    "variant": "paraphrase",
+    "raw_output": "34 + 12 + 6 = 52",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0001/reorder",
+    "prompt": "A second gift contains 6 cards and the first contains 12. Lin had 34 cards before receiving both. How many now?",
+    "gold": 52,
+    "variant": "reorder",
+    "raw_output": "34 - 6 = 28",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0001/edit",
+    "prompt": "Lin has 34 cards, receives 12 cards, then gives away 6 cards. How many cards does Lin have?",
+    "gold": 40,
+    "variant": "edit",
+    "raw_output": "34 + 12 - 6 = 40",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0002/original",
+    "prompt": "Lin has 54 cards, receives 6 cards, then receives 11 cards. How many cards does Lin have?",
+    "gold": 71,
+    "variant": "original",
+    "raw_output": "54 + 6 + 11 = 71",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0002/paraphrase",
+    "prompt": "Lin adds two gifts of 6 and 11 cards to an initial collection of 54. How many cards are there now?",
+    "gold": 71,
+    "variant": "paraphrase",
+    "raw_output": "54 + 2 × 6 + 11 = 54",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0002/reorder",
+    "prompt": "A second gift contains 11 cards and the first contains 6. Lin had 54 cards before receiving both. How many now?",
+    "gold": 71,
+    "variant": "reorder",
+    "raw_output": "54 - 11 = 43",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0002/edit",
+    "prompt": "Lin has 54 cards, receives 6 cards, then gives away 11 cards. How many cards does Lin have?",
+    "gold": 49,
+    "variant": "edit",
+    "raw_output": "54 + 6 - 11 = 49",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0003/original",
+    "prompt": "Lin has 75 cards, receives 11 cards, then receives 7 cards. How many cards does Lin have?",
+    "gold": 93,
+    "variant": "original",
+    "raw_output": "25",
+    "parsed": 25,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0003/paraphrase",
+    "prompt": "Lin adds two gifts of 11 and 7 cards to an initial collection of 75. How many cards are there now?",
+    "gold": 93,
+    "variant": "paraphrase",
+    "raw_output": "The initial collection has 75 cards. Lin adds two gifts of 1",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0003/reorder",
+    "prompt": "A second gift contains 7 cards and the first contains 11. Lin had 75 cards before receiving both. How many now?",
+    "gold": 93,
+    "variant": "reorder",
+    "raw_output": "75 - 7 = 68",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0003/edit",
+    "prompt": "Lin has 75 cards, receives 11 cards, then gives away 7 cards. How many cards does Lin have?",
+    "gold": 79,
+    "variant": "edit",
+    "raw_output": "25",
+    "parsed": 25,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0004/original",
+    "prompt": "Lin has 72 cards, receives 3 cards, then receives 2 cards. How many cards does Lin have?",
+    "gold": 77,
+    "variant": "original",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0004/paraphrase",
+    "prompt": "Lin adds two gifts of 3 and 2 cards to an initial collection of 72. How many cards are there now?",
+    "gold": 77,
+    "variant": "paraphrase",
+    "raw_output": "72 + 2 + 2 = 76",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0004/reorder",
+    "prompt": "A second gift contains 2 cards and the first contains 3. Lin had 72 cards before receiving both. How many now?",
+    "gold": 77,
+    "variant": "reorder",
+    "raw_output": "2",
+    "parsed": 2,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0004/edit",
+    "prompt": "Lin has 72 cards, receives 3 cards, then gives away 2 cards. How many cards does Lin have?",
+    "gold": 73,
+    "variant": "edit",
+    "raw_output": "24",
+    "parsed": 24,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0005/original",
+    "prompt": "Lin has 54 cards, receives 9 cards, then receives 8 cards. How many cards does Lin have?",
+    "gold": 71,
+    "variant": "original",
+    "raw_output": "54 + 9 + 8 = 71",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0005/paraphrase",
+    "prompt": "Lin adds two gifts of 9 and 8 cards to an initial collection of 54. How many cards are there now?",
+    "gold": 71,
+    "variant": "paraphrase",
+    "raw_output": "54 + 9 + 8 = 71",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0005/reorder",
+    "prompt": "A second gift contains 8 cards and the first contains 9. Lin had 54 cards before receiving both. How many now?",
+    "gold": 71,
+    "variant": "reorder",
+    "raw_output": "54",
+    "parsed": 54,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0005/edit",
+    "prompt": "Lin has 54 cards, receives 9 cards, then gives away 8 cards. How many cards does Lin have?",
+    "gold": 55,
+    "variant": "edit",
+    "raw_output": "54",
+    "parsed": 54,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0006/original",
+    "prompt": "Lin has 50 cards, receives 5 cards, then receives 10 cards. How many cards does Lin have?",
+    "gold": 65,
+    "variant": "original",
+    "raw_output": "50 cards + 5 cards + 10 cards = 65",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0006/paraphrase",
+    "prompt": "Lin adds two gifts of 5 and 10 cards to an initial collection of 50. How many cards are there now?",
+    "gold": 65,
+    "variant": "paraphrase",
+    "raw_output": "50 + 5 + 10 = 65",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0006/reorder",
+    "prompt": "A second gift contains 10 cards and the first contains 5. Lin had 50 cards before receiving both. How many now?",
+    "gold": 65,
+    "variant": "reorder",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0006/edit",
+    "prompt": "Lin has 50 cards, receives 5 cards, then gives away 10 cards. How many cards does Lin have?",
+    "gold": 45,
+    "variant": "edit",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0007/original",
+    "prompt": "Lin has 71 cards, receives 8 cards, then receives 10 cards. How many cards does Lin have?",
+    "gold": 89,
+    "variant": "original",
+    "raw_output": "71 + 8 + 10 = 89",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0007/paraphrase",
+    "prompt": "Lin adds two gifts of 8 and 10 cards to an initial collection of 71. How many cards are there now?",
+    "gold": 89,
+    "variant": "paraphrase",
+    "raw_output": "The initial collection of cards is 71. Lin adds two gifts of ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0007/reorder",
+    "prompt": "A second gift contains 10 cards and the first contains 8. Lin had 71 cards before receiving both. How many now?",
+    "gold": 89,
+    "variant": "reorder",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0007/edit",
+    "prompt": "Lin has 71 cards, receives 8 cards, then gives away 10 cards. How many cards does Lin have?",
+    "gold": 69,
+    "variant": "edit",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0008/original",
+    "prompt": "Lin has 79 cards, receives 12 cards, then receives 8 cards. How many cards does Lin have?",
+    "gold": 99,
+    "variant": "original",
+    "raw_output": "79 + 12 + 8 = 99",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0008/paraphrase",
+    "prompt": "Lin adds two gifts of 12 and 8 cards to an initial collection of 79. How many cards are there now?",
+    "gold": 99,
+    "variant": "paraphrase",
+    "raw_output": "79 + 12 + 8 = 99",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0008/reorder",
+    "prompt": "A second gift contains 8 cards and the first contains 12. Lin had 79 cards before receiving both. How many now?",
+    "gold": 99,
+    "variant": "reorder",
+    "raw_output": "8 + 12 = 20",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0008/edit",
+    "prompt": "Lin has 79 cards, receives 12 cards, then gives away 8 cards. How many cards does Lin have?",
+    "gold": 83,
+    "variant": "edit",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0009/original",
+    "prompt": "Lin has 90 cards, receives 9 cards, then receives 8 cards. How many cards does Lin have?",
+    "gold": 107,
+    "variant": "original",
+    "raw_output": "90 + 9 + 8 = 107",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0009/paraphrase",
+    "prompt": "Lin adds two gifts of 9 and 8 cards to an initial collection of 90. How many cards are there now?",
+    "gold": 107,
+    "variant": "paraphrase",
+    "raw_output": "90 + 9 + 8 = 107",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0009/reorder",
+    "prompt": "A second gift contains 8 cards and the first contains 9. Lin had 90 cards before receiving both. How many now?",
+    "gold": 107,
+    "variant": "reorder",
+    "raw_output": "8",
+    "parsed": 8,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0009/edit",
+    "prompt": "Lin has 90 cards, receives 9 cards, then gives away 8 cards. How many cards does Lin have?",
+    "gold": 91,
+    "variant": "edit",
+    "raw_output": "90 - 9 - 8 = 73",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0010/original",
+    "prompt": "Lin has 88 cards, receives 7 cards, then receives 11 cards. How many cards does Lin have?",
+    "gold": 106,
+    "variant": "original",
+    "raw_output": "88 + 7 + 11 = 106",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0010/paraphrase",
+    "prompt": "Lin adds two gifts of 7 and 11 cards to an initial collection of 88. How many cards are there now?",
+    "gold": 106,
+    "variant": "paraphrase",
+    "raw_output": "88 + 7 + 11 = 106",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0010/reorder",
+    "prompt": "A second gift contains 11 cards and the first contains 7. Lin had 88 cards before receiving both. How many now?",
+    "gold": 106,
+    "variant": "reorder",
+    "raw_output": "11",
+    "parsed": 11,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0010/edit",
+    "prompt": "Lin has 88 cards, receives 7 cards, then gives away 11 cards. How many cards does Lin have?",
+    "gold": 84,
+    "variant": "edit",
+    "raw_output": "88 - 7 - 11 = 72",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0011/original",
+    "prompt": "Lin has 30 cards, receives 12 cards, then receives 11 cards. How many cards does Lin have?",
+    "gold": 53,
+    "variant": "original",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0011/paraphrase",
+    "prompt": "Lin adds two gifts of 12 and 11 cards to an initial collection of 30. How many cards are there now?",
+    "gold": 53,
+    "variant": "paraphrase",
+    "raw_output": "30 + 12 + 11 = 53",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0011/reorder",
+    "prompt": "A second gift contains 11 cards and the first contains 12. Lin had 30 cards before receiving both. How many now?",
+    "gold": 53,
+    "variant": "reorder",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0011/edit",
+    "prompt": "Lin has 30 cards, receives 12 cards, then gives away 11 cards. How many cards does Lin have?",
+    "gold": 31,
+    "variant": "edit",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0012/original",
+    "prompt": "Lin has 45 cards, receives 7 cards, then receives 12 cards. How many cards does Lin have?",
+    "gold": 64,
+    "variant": "original",
+    "raw_output": "45 + 7 + 12 = 64",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0012/paraphrase",
+    "prompt": "Lin adds two gifts of 7 and 12 cards to an initial collection of 45. How many cards are there now?",
+    "gold": 64,
+    "variant": "paraphrase",
+    "raw_output": "45 + 7 + 12 = 64",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0012/reorder",
+    "prompt": "A second gift contains 12 cards and the first contains 7. Lin had 45 cards before receiving both. How many now?",
+    "gold": 64,
+    "variant": "reorder",
+    "raw_output": "12 cards.",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0012/edit",
+    "prompt": "Lin has 45 cards, receives 7 cards, then gives away 12 cards. How many cards does Lin have?",
+    "gold": 40,
+    "variant": "edit",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0013/original",
+    "prompt": "Lin has 45 cards, receives 2 cards, then receives 12 cards. How many cards does Lin have?",
+    "gold": 59,
+    "variant": "original",
+    "raw_output": "2 + 12 = 14",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0013/paraphrase",
+    "prompt": "Lin adds two gifts of 2 and 12 cards to an initial collection of 45. How many cards are there now?",
+    "gold": 59,
+    "variant": "paraphrase",
+    "raw_output": "45 + 2 + 12 = 59",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0013/reorder",
+    "prompt": "A second gift contains 12 cards and the first contains 2. Lin had 45 cards before receiving both. How many now?",
+    "gold": 59,
+    "variant": "reorder",
+    "raw_output": "20",
+    "parsed": 20,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0013/edit",
+    "prompt": "Lin has 45 cards, receives 2 cards, then gives away 12 cards. How many cards does Lin have?",
+    "gold": 35,
+    "variant": "edit",
+    "raw_output": "25",
+    "parsed": 25,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0014/original",
+    "prompt": "Lin has 74 cards, receives 11 cards, then receives 2 cards. How many cards does Lin have?",
+    "gold": 87,
+    "variant": "original",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0014/paraphrase",
+    "prompt": "Lin adds two gifts of 11 and 2 cards to an initial collection of 74. How many cards are there now?",
+    "gold": 87,
+    "variant": "paraphrase",
+    "raw_output": "74 + 2 + 2 = 78",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0014/reorder",
+    "prompt": "A second gift contains 2 cards and the first contains 11. Lin had 74 cards before receiving both. How many now?",
+    "gold": 87,
+    "variant": "reorder",
+    "raw_output": "2",
+    "parsed": 2,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0014/edit",
+    "prompt": "Lin has 74 cards, receives 11 cards, then gives away 2 cards. How many cards does Lin have?",
+    "gold": 83,
+    "variant": "edit",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0015/original",
+    "prompt": "Lin has 80 cards, receives 11 cards, then receives 9 cards. How many cards does Lin have?",
+    "gold": 100,
+    "variant": "original",
+    "raw_output": "80 + 11 + 9 = 100",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0015/paraphrase",
+    "prompt": "Lin adds two gifts of 11 and 9 cards to an initial collection of 80. How many cards are there now?",
+    "gold": 100,
+    "variant": "paraphrase",
+    "raw_output": "80 + 11 + 9 = 100",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0015/reorder",
+    "prompt": "A second gift contains 9 cards and the first contains 11. Lin had 80 cards before receiving both. How many now?",
+    "gold": 100,
+    "variant": "reorder",
+    "raw_output": "9",
+    "parsed": 9,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0015/edit",
+    "prompt": "Lin has 80 cards, receives 11 cards, then gives away 9 cards. How many cards does Lin have?",
+    "gold": 82,
+    "variant": "edit",
+    "raw_output": "80 - 11 + 9 = 78",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0016/original",
+    "prompt": "Lin has 51 cards, receives 8 cards, then receives 4 cards. How many cards does Lin have?",
+    "gold": 63,
+    "variant": "original",
+    "raw_output": "51 + 8 + 4 = 63",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0016/paraphrase",
+    "prompt": "Lin adds two gifts of 8 and 4 cards to an initial collection of 51. How many cards are there now?",
+    "gold": 63,
+    "variant": "paraphrase",
+    "raw_output": "51 + 8 + 4 = 63",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0016/reorder",
+    "prompt": "A second gift contains 4 cards and the first contains 8. Lin had 51 cards before receiving both. How many now?",
+    "gold": 63,
+    "variant": "reorder",
+    "raw_output": "51 - 4 = 47",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0016/edit",
+    "prompt": "Lin has 51 cards, receives 8 cards, then gives away 4 cards. How many cards does Lin have?",
+    "gold": 55,
+    "variant": "edit",
+    "raw_output": "51",
+    "parsed": 51,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0017/original",
+    "prompt": "Lin has 79 cards, receives 10 cards, then receives 6 cards. How many cards does Lin have?",
+    "gold": 95,
+    "variant": "original",
+    "raw_output": "79 + 10 + 6 = 95",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0017/paraphrase",
+    "prompt": "Lin adds two gifts of 10 and 6 cards to an initial collection of 79. How many cards are there now?",
+    "gold": 95,
+    "variant": "paraphrase",
+    "raw_output": "79 + 10 + 6 = 95",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0017/reorder",
+    "prompt": "A second gift contains 6 cards and the first contains 10. Lin had 79 cards before receiving both. How many now?",
+    "gold": 95,
+    "variant": "reorder",
+    "raw_output": "6 + 10 = 16",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0017/edit",
+    "prompt": "Lin has 79 cards, receives 10 cards, then gives away 6 cards. How many cards does Lin have?",
+    "gold": 83,
+    "variant": "edit",
+    "raw_output": "23",
+    "parsed": 23,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0018/original",
+    "prompt": "Lin has 74 cards, receives 12 cards, then receives 11 cards. How many cards does Lin have?",
+    "gold": 97,
+    "variant": "original",
+    "raw_output": "24",
+    "parsed": 24,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0018/paraphrase",
+    "prompt": "Lin adds two gifts of 12 and 11 cards to an initial collection of 74. How many cards are there now?",
+    "gold": 97,
+    "variant": "paraphrase",
+    "raw_output": "The initial collection of cards is 74. Lin adds two gifts of ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0018/reorder",
+    "prompt": "A second gift contains 11 cards and the first contains 12. Lin had 74 cards before receiving both. How many now?",
+    "gold": 97,
+    "variant": "reorder",
+    "raw_output": "11",
+    "parsed": 11,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0018/edit",
+    "prompt": "Lin has 74 cards, receives 12 cards, then gives away 11 cards. How many cards does Lin have?",
+    "gold": 75,
+    "variant": "edit",
+    "raw_output": "21",
+    "parsed": 21,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0019/original",
+    "prompt": "Lin has 52 cards, receives 5 cards, then receives 10 cards. How many cards does Lin have?",
+    "gold": 67,
+    "variant": "original",
+    "raw_output": "52 + 5 + 10 = 67",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0019/paraphrase",
+    "prompt": "Lin adds two gifts of 5 and 10 cards to an initial collection of 52. How many cards are there now?",
+    "gold": 67,
+    "variant": "paraphrase",
+    "raw_output": "52 + 5 + 10 = 67",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0019/reorder",
+    "prompt": "A second gift contains 10 cards and the first contains 5. Lin had 52 cards before receiving both. How many now?",
+    "gold": 67,
+    "variant": "reorder",
+    "raw_output": "52 - 10 = 42",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-transfer_2-0019/edit",
+    "prompt": "Lin has 52 cards, receives 5 cards, then gives away 10 cards. How many cards does Lin have?",
+    "gold": 47,
+    "variant": "edit",
+    "raw_output": "52 - 5 - 10 = 37",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0000/original",
+    "prompt": "Mia has 72 books. Noah has 12 more than Mia. How many books do they have together?",
+    "gold": 156,
+    "variant": "original",
+    "raw_output": "72 + 12 = 84",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0000/paraphrase",
+    "prompt": "With 72 books belonging to Mia and 12 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 156,
+    "variant": "paraphrase",
+    "raw_output": "72 + 12 = 84",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0000/reorder",
+    "prompt": "Noah has 12 more books than Mia. Together, how many books do they have if Mia has 72?",
+    "gold": 156,
+    "variant": "reorder",
+    "raw_output": "24",
+    "parsed": 24,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0000/edit",
+    "prompt": "Mia has 72 books. Noah has 12 fewer than Mia. How many books do they have together?",
+    "gold": 132,
+    "variant": "edit",
+    "raw_output": "72 + 12 = 84",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0001/original",
+    "prompt": "Mia has 97 books. Noah has 2 more than Mia. How many books do they have together?",
+    "gold": 196,
+    "variant": "original",
+    "raw_output": "97 + 2 = 99",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0001/paraphrase",
+    "prompt": "With 97 books belonging to Mia and 2 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 196,
+    "variant": "paraphrase",
+    "raw_output": "204",
+    "parsed": 204,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0001/reorder",
+    "prompt": "Noah has 2 more books than Mia. Together, how many books do they have if Mia has 97?",
+    "gold": 196,
+    "variant": "reorder",
+    "raw_output": "97 + 2 = 99",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0001/edit",
+    "prompt": "Mia has 97 books. Noah has 2 fewer than Mia. How many books do they have together?",
+    "gold": 192,
+    "variant": "edit",
+    "raw_output": "97 + 97 = 194",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0002/original",
+    "prompt": "Mia has 74 books. Noah has 3 more than Mia. How many books do they have together?",
+    "gold": 151,
+    "variant": "original",
+    "raw_output": "74 + 3 = 77",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0002/paraphrase",
+    "prompt": "With 74 books belonging to Mia and 3 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 151,
+    "variant": "paraphrase",
+    "raw_output": "218",
+    "parsed": 218,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0002/reorder",
+    "prompt": "Noah has 3 more books than Mia. Together, how many books do they have if Mia has 74?",
+    "gold": 151,
+    "variant": "reorder",
+    "raw_output": "300",
+    "parsed": 300,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0002/edit",
+    "prompt": "Mia has 74 books. Noah has 3 fewer than Mia. How many books do they have together?",
+    "gold": 145,
+    "variant": "edit",
+    "raw_output": "30",
+    "parsed": 30,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0003/original",
+    "prompt": "Mia has 84 books. Noah has 5 more than Mia. How many books do they have together?",
+    "gold": 173,
+    "variant": "original",
+    "raw_output": "84 + 5 = 89",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0003/paraphrase",
+    "prompt": "With 84 books belonging to Mia and 5 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 173,
+    "variant": "paraphrase",
+    "raw_output": "84 + 5 = 89",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0003/reorder",
+    "prompt": "Noah has 5 more books than Mia. Together, how many books do they have if Mia has 84?",
+    "gold": 173,
+    "variant": "reorder",
+    "raw_output": "210",
+    "parsed": 210,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0003/edit",
+    "prompt": "Mia has 84 books. Noah has 5 fewer than Mia. How many books do they have together?",
+    "gold": 163,
+    "variant": "edit",
+    "raw_output": "84 + 5 = 89",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0004/original",
+    "prompt": "Mia has 73 books. Noah has 9 more than Mia. How many books do they have together?",
+    "gold": 155,
+    "variant": "original",
+    "raw_output": "73 + 9 = 82",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0004/paraphrase",
+    "prompt": "With 73 books belonging to Mia and 9 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 155,
+    "variant": "paraphrase",
+    "raw_output": "222",
+    "parsed": 222,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0004/reorder",
+    "prompt": "Noah has 9 more books than Mia. Together, how many books do they have if Mia has 73?",
+    "gold": 155,
+    "variant": "reorder",
+    "raw_output": "206",
+    "parsed": 206,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0004/edit",
+    "prompt": "Mia has 73 books. Noah has 9 fewer than Mia. How many books do they have together?",
+    "gold": 137,
+    "variant": "edit",
+    "raw_output": "73 + 9 = 82",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0005/original",
+    "prompt": "Mia has 60 books. Noah has 8 more than Mia. How many books do they have together?",
+    "gold": 128,
+    "variant": "original",
+    "raw_output": "240",
+    "parsed": 240,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0005/paraphrase",
+    "prompt": "With 60 books belonging to Mia and 8 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 128,
+    "variant": "paraphrase",
+    "raw_output": "240",
+    "parsed": 240,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0005/reorder",
+    "prompt": "Noah has 8 more books than Mia. Together, how many books do they have if Mia has 60?",
+    "gold": 128,
+    "variant": "reorder",
+    "raw_output": "240",
+    "parsed": 240,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0005/edit",
+    "prompt": "Mia has 60 books. Noah has 8 fewer than Mia. How many books do they have together?",
+    "gold": 112,
+    "variant": "edit",
+    "raw_output": "28",
+    "parsed": 28,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0006/original",
+    "prompt": "Mia has 90 books. Noah has 5 more than Mia. How many books do they have together?",
+    "gold": 185,
+    "variant": "original",
+    "raw_output": "90 + 5 = 95",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0006/paraphrase",
+    "prompt": "With 90 books belonging to Mia and 5 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 185,
+    "variant": "paraphrase",
+    "raw_output": "90 + 5 = 95",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0006/reorder",
+    "prompt": "Noah has 5 more books than Mia. Together, how many books do they have if Mia has 90?",
+    "gold": 185,
+    "variant": "reorder",
+    "raw_output": "90 + 5 = 95",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0006/edit",
+    "prompt": "Mia has 90 books. Noah has 5 fewer than Mia. How many books do they have together?",
+    "gold": 175,
+    "variant": "edit",
+    "raw_output": "90",
+    "parsed": 90,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0007/original",
+    "prompt": "Mia has 79 books. Noah has 12 more than Mia. How many books do they have together?",
+    "gold": 170,
+    "variant": "original",
+    "raw_output": "79 + 12 = 91",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0007/paraphrase",
+    "prompt": "With 79 books belonging to Mia and 12 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 170,
+    "variant": "paraphrase",
+    "raw_output": "211",
+    "parsed": 211,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0007/reorder",
+    "prompt": "Noah has 12 more books than Mia. Together, how many books do they have if Mia has 79?",
+    "gold": 170,
+    "variant": "reorder",
+    "raw_output": "79 + 12 = 91",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0007/edit",
+    "prompt": "Mia has 79 books. Noah has 12 fewer than Mia. How many books do they have together?",
+    "gold": 146,
+    "variant": "edit",
+    "raw_output": "79 + 12 = 91",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0008/original",
+    "prompt": "Mia has 75 books. Noah has 7 more than Mia. How many books do they have together?",
+    "gold": 157,
+    "variant": "original",
+    "raw_output": "75 + 7 = 82",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0008/paraphrase",
+    "prompt": "With 75 books belonging to Mia and 7 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 157,
+    "variant": "paraphrase",
+    "raw_output": "252",
+    "parsed": 252,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0008/reorder",
+    "prompt": "Noah has 7 more books than Mia. Together, how many books do they have if Mia has 75?",
+    "gold": 157,
+    "variant": "reorder",
+    "raw_output": "240",
+    "parsed": 240,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0008/edit",
+    "prompt": "Mia has 75 books. Noah has 7 fewer than Mia. How many books do they have together?",
+    "gold": 143,
+    "variant": "edit",
+    "raw_output": "240",
+    "parsed": 240,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0009/original",
+    "prompt": "Mia has 37 books. Noah has 8 more than Mia. How many books do they have together?",
+    "gold": 82,
+    "variant": "original",
+    "raw_output": "37 + 8 = 45",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0009/paraphrase",
+    "prompt": "With 37 books belonging to Mia and 8 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 82,
+    "variant": "paraphrase",
+    "raw_output": "255",
+    "parsed": 255,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0009/reorder",
+    "prompt": "Noah has 8 more books than Mia. Together, how many books do they have if Mia has 37?",
+    "gold": 82,
+    "variant": "reorder",
+    "raw_output": "37 + 8 = 45",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0009/edit",
+    "prompt": "Mia has 37 books. Noah has 8 fewer than Mia. How many books do they have together?",
+    "gold": 66,
+    "variant": "edit",
+    "raw_output": "37 + 8 = 45",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0010/original",
+    "prompt": "Mia has 53 books. Noah has 9 more than Mia. How many books do they have together?",
+    "gold": 115,
+    "variant": "original",
+    "raw_output": "53 + 9 = 62",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0010/paraphrase",
+    "prompt": "With 53 books belonging to Mia and 9 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 115,
+    "variant": "paraphrase",
+    "raw_output": "242",
+    "parsed": 242,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0010/reorder",
+    "prompt": "Noah has 9 more books than Mia. Together, how many books do they have if Mia has 53?",
+    "gold": 115,
+    "variant": "reorder",
+    "raw_output": "28",
+    "parsed": 28,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0010/edit",
+    "prompt": "Mia has 53 books. Noah has 9 fewer than Mia. How many books do they have together?",
+    "gold": 97,
+    "variant": "edit",
+    "raw_output": "53 + 9 = 62",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0011/original",
+    "prompt": "Mia has 37 books. Noah has 6 more than Mia. How many books do they have together?",
+    "gold": 80,
+    "variant": "original",
+    "raw_output": "37 + 6 = 43",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0011/paraphrase",
+    "prompt": "With 37 books belonging to Mia and 6 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 80,
+    "variant": "paraphrase",
+    "raw_output": "274",
+    "parsed": 274,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0011/reorder",
+    "prompt": "Noah has 6 more books than Mia. Together, how many books do they have if Mia has 37?",
+    "gold": 80,
+    "variant": "reorder",
+    "raw_output": "37 + 6 = 43",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0011/edit",
+    "prompt": "Mia has 37 books. Noah has 6 fewer than Mia. How many books do they have together?",
+    "gold": 68,
+    "variant": "edit",
+    "raw_output": "37 + 6 = 43",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0012/original",
+    "prompt": "Mia has 66 books. Noah has 4 more than Mia. How many books do they have together?",
+    "gold": 136,
+    "variant": "original",
+    "raw_output": "66 + 4 = 70",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0012/paraphrase",
+    "prompt": "With 66 books belonging to Mia and 4 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 136,
+    "variant": "paraphrase",
+    "raw_output": "222",
+    "parsed": 222,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0012/reorder",
+    "prompt": "Noah has 4 more books than Mia. Together, how many books do they have if Mia has 66?",
+    "gold": 136,
+    "variant": "reorder",
+    "raw_output": "222",
+    "parsed": 222,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0012/edit",
+    "prompt": "Mia has 66 books. Noah has 4 fewer than Mia. How many books do they have together?",
+    "gold": 128,
+    "variant": "edit",
+    "raw_output": "66 + 4 = 70",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0013/original",
+    "prompt": "Mia has 91 books. Noah has 5 more than Mia. How many books do they have together?",
+    "gold": 187,
+    "variant": "original",
+    "raw_output": "91 + 5 = 96",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0013/paraphrase",
+    "prompt": "With 91 books belonging to Mia and 5 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 187,
+    "variant": "paraphrase",
+    "raw_output": "91 + 5 = 96",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0013/reorder",
+    "prompt": "Noah has 5 more books than Mia. Together, how many books do they have if Mia has 91?",
+    "gold": 187,
+    "variant": "reorder",
+    "raw_output": "91 + 5 = 96",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0013/edit",
+    "prompt": "Mia has 91 books. Noah has 5 fewer than Mia. How many books do they have together?",
+    "gold": 177,
+    "variant": "edit",
+    "raw_output": "91 + 5 = 96",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0014/original",
+    "prompt": "Mia has 61 books. Noah has 4 more than Mia. How many books do they have together?",
+    "gold": 126,
+    "variant": "original",
+    "raw_output": "61 + 4 = 65.",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0014/paraphrase",
+    "prompt": "With 61 books belonging to Mia and 4 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 126,
+    "variant": "paraphrase",
+    "raw_output": "212",
+    "parsed": 212,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0014/reorder",
+    "prompt": "Noah has 4 more books than Mia. Together, how many books do they have if Mia has 61?",
+    "gold": 126,
+    "variant": "reorder",
+    "raw_output": "212",
+    "parsed": 212,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0014/edit",
+    "prompt": "Mia has 61 books. Noah has 4 fewer than Mia. How many books do they have together?",
+    "gold": 118,
+    "variant": "edit",
+    "raw_output": "61 + 4 = 65",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0015/original",
+    "prompt": "Mia has 78 books. Noah has 9 more than Mia. How many books do they have together?",
+    "gold": 165,
+    "variant": "original",
+    "raw_output": "78 + 9 = 87",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0015/paraphrase",
+    "prompt": "With 78 books belonging to Mia and 9 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 165,
+    "variant": "paraphrase",
+    "raw_output": "246",
+    "parsed": 246,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0015/reorder",
+    "prompt": "Noah has 9 more books than Mia. Together, how many books do they have if Mia has 78?",
+    "gold": 165,
+    "variant": "reorder",
+    "raw_output": "276",
+    "parsed": 276,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0015/edit",
+    "prompt": "Mia has 78 books. Noah has 9 fewer than Mia. How many books do they have together?",
+    "gold": 147,
+    "variant": "edit",
+    "raw_output": "78 + 9 = 87",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0016/original",
+    "prompt": "Mia has 61 books. Noah has 8 more than Mia. How many books do they have together?",
+    "gold": 130,
+    "variant": "original",
+    "raw_output": "61 + 8 = 69",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0016/paraphrase",
+    "prompt": "With 61 books belonging to Mia and 8 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 130,
+    "variant": "paraphrase",
+    "raw_output": "212",
+    "parsed": 212,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0016/reorder",
+    "prompt": "Noah has 8 more books than Mia. Together, how many books do they have if Mia has 61?",
+    "gold": 130,
+    "variant": "reorder",
+    "raw_output": "212",
+    "parsed": 212,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0016/edit",
+    "prompt": "Mia has 61 books. Noah has 8 fewer than Mia. How many books do they have together?",
+    "gold": 114,
+    "variant": "edit",
+    "raw_output": "61 + 8 = 69",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0017/original",
+    "prompt": "Mia has 91 books. Noah has 3 more than Mia. How many books do they have together?",
+    "gold": 185,
+    "variant": "original",
+    "raw_output": "91 + 3 = 94",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0017/paraphrase",
+    "prompt": "With 91 books belonging to Mia and 3 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 185,
+    "variant": "paraphrase",
+    "raw_output": "91 + 3 = 94",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0017/reorder",
+    "prompt": "Noah has 3 more books than Mia. Together, how many books do they have if Mia has 91?",
+    "gold": 185,
+    "variant": "reorder",
+    "raw_output": "91 + 3 = 94",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0017/edit",
+    "prompt": "Mia has 91 books. Noah has 3 fewer than Mia. How many books do they have together?",
+    "gold": 179,
+    "variant": "edit",
+    "raw_output": "91 + 3 = 94",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0018/original",
+    "prompt": "Mia has 63 books. Noah has 7 more than Mia. How many books do they have together?",
+    "gold": 133,
+    "variant": "original",
+    "raw_output": "63 + 7 = 70",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0018/paraphrase",
+    "prompt": "With 63 books belonging to Mia and 7 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 133,
+    "variant": "paraphrase",
+    "raw_output": "63 + 7 = 70",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0018/reorder",
+    "prompt": "Noah has 7 more books than Mia. Together, how many books do they have if Mia has 63?",
+    "gold": 133,
+    "variant": "reorder",
+    "raw_output": "210",
+    "parsed": 210,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0018/edit",
+    "prompt": "Mia has 63 books. Noah has 7 fewer than Mia. How many books do they have together?",
+    "gold": 119,
+    "variant": "edit",
+    "raw_output": "63 + 7 = 70",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0019/original",
+    "prompt": "Mia has 93 books. Noah has 10 more than Mia. How many books do they have together?",
+    "gold": 196,
+    "variant": "original",
+    "raw_output": "93 + 10 = 103.",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0019/paraphrase",
+    "prompt": "With 93 books belonging to Mia and 10 additional books in Noah's collection compared with hers, what is their combined total?",
+    "gold": 196,
+    "variant": "paraphrase",
+    "raw_output": "93 + 10 = 103",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0019/reorder",
+    "prompt": "Noah has 10 more books than Mia. Together, how many books do they have if Mia has 93?",
+    "gold": 196,
+    "variant": "reorder",
+    "raw_output": "93 + 10 = 103",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-comparison_2-0019/edit",
+    "prompt": "Mia has 93 books. Noah has 10 fewer than Mia. How many books do they have together?",
+    "gold": 176,
+    "variant": "edit",
+    "raw_output": "93 + 10 = 103",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0000/original",
+    "prompt": "There are 4 boxes, each containing 76 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 302,
+    "variant": "original",
+    "raw_output": "2 balls are removed in total.  \nThere are 4 boxes, each containing",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0000/paraphrase",
+    "prompt": "From 4 boxes holding 76 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 302,
+    "variant": "paraphrase",
+    "raw_output": "200",
+    "parsed": 200,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0000/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 4 boxes with 76 balls in each. How many balls remain?",
+    "gold": 302,
+    "variant": "reorder",
+    "raw_output": "The problem states that exactly 2 balls are taken out overall. Initially, there",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0000/edit",
+    "prompt": "There are 4 boxes, each containing 76 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 296,
+    "variant": "edit",
+    "raw_output": "2 balls are removed from each box, and there are 4 boxes. So",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0001/original",
+    "prompt": "There are 3 boxes, each containing 83 balls. Exactly 9 balls are removed in total. How many balls remain?",
+    "gold": 240,
+    "variant": "original",
+    "raw_output": "9 balls are removed in total. Each box originally contains 83 balls.",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0001/paraphrase",
+    "prompt": "From 3 boxes holding 83 balls apiece, a combined total of 9 balls is taken out. How many balls remain altogether?",
+    "gold": 240,
+    "variant": "paraphrase",
+    "raw_output": "9 balls are taken out.  \nEach box has 83 balls, so",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0001/reorder",
+    "prompt": "Exactly 9 balls are taken out overall. Initially there were 3 boxes with 83 balls in each. How many balls remain?",
+    "gold": 240,
+    "variant": "reorder",
+    "raw_output": "The total number of balls is $ 3 \\times 83 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0001/edit",
+    "prompt": "There are 3 boxes, each containing 83 balls. Exactly 9 balls are removed from each box. How many balls remain?",
+    "gold": 222,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 3 boxes, each containing 83 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0002/original",
+    "prompt": "There are 2 boxes, each containing 82 balls. Exactly 8 balls are removed in total. How many balls remain?",
+    "gold": 156,
+    "variant": "original",
+    "raw_output": "82 × 2 = 164  \n164 - ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0002/paraphrase",
+    "prompt": "From 2 boxes holding 82 balls apiece, a combined total of 8 balls is taken out. How many balls remain altogether?",
+    "gold": 156,
+    "variant": "paraphrase",
+    "raw_output": "82 + 8 = 90  \n90 - 8 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0002/reorder",
+    "prompt": "Exactly 8 balls are taken out overall. Initially there were 2 boxes with 82 balls in each. How many balls remain?",
+    "gold": 156,
+    "variant": "reorder",
+    "raw_output": "The total number of balls initially is $ 2 \\times 82 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0002/edit",
+    "prompt": "There are 2 boxes, each containing 82 balls. Exactly 8 balls are removed from each box. How many balls remain?",
+    "gold": 148,
+    "variant": "edit",
+    "raw_output": "82 - 8 = 74",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0003/original",
+    "prompt": "There are 11 boxes, each containing 45 balls. Exactly 10 balls are removed in total. How many balls remain?",
+    "gold": 485,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 11 \\times 45 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0003/paraphrase",
+    "prompt": "From 11 boxes holding 45 balls apiece, a combined total of 10 balls is taken out. How many balls remain altogether?",
+    "gold": 485,
+    "variant": "paraphrase",
+    "raw_output": "The total number of balls is $ 11 \\times 45 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0003/reorder",
+    "prompt": "Exactly 10 balls are taken out overall. Initially there were 11 boxes with 45 balls in each. How many balls remain?",
+    "gold": 485,
+    "variant": "reorder",
+    "raw_output": "The problem states that 10 balls are taken out. Initially, there were",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0003/edit",
+    "prompt": "There are 11 boxes, each containing 45 balls. Exactly 10 balls are removed from each box. How many balls remain?",
+    "gold": 385,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 11 boxes, each containing 45",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0004/original",
+    "prompt": "There are 8 boxes, each containing 65 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 518,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 8 \\times 65 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0004/paraphrase",
+    "prompt": "From 8 boxes holding 65 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 518,
+    "variant": "paraphrase",
+    "raw_output": "2 balls are taken out.  \nThere are 8 boxes, each holding ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0004/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 8 boxes with 65 balls in each. How many balls remain?",
+    "gold": 518,
+    "variant": "reorder",
+    "raw_output": "The problem states that exactly 2 balls are taken out. Initially, there were",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0004/edit",
+    "prompt": "There are 8 boxes, each containing 65 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 504,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 8 boxes, each containing 65 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0005/original",
+    "prompt": "There are 12 boxes, each containing 62 balls. Exactly 9 balls are removed in total. How many balls remain?",
+    "gold": 735,
+    "variant": "original",
+    "raw_output": "The total number of balls is $12 \\times 62 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0005/paraphrase",
+    "prompt": "From 12 boxes holding 62 balls apiece, a combined total of 9 balls is taken out. How many balls remain altogether?",
+    "gold": 735,
+    "variant": "paraphrase",
+    "raw_output": "9",
+    "parsed": 9,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0005/reorder",
+    "prompt": "Exactly 9 balls are taken out overall. Initially there were 12 boxes with 62 balls in each. How many balls remain?",
+    "gold": 735,
+    "variant": "reorder",
+    "raw_output": "The total number of balls is $ 12 \\times 62 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0005/edit",
+    "prompt": "There are 12 boxes, each containing 62 balls. Exactly 9 balls are removed from each box. How many balls remain?",
+    "gold": 636,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 12 boxes, each containing 62",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0006/original",
+    "prompt": "There are 6 boxes, each containing 74 balls. Exactly 7 balls are removed in total. How many balls remain?",
+    "gold": 437,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 6 \\times 74 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0006/paraphrase",
+    "prompt": "From 6 boxes holding 74 balls apiece, a combined total of 7 balls is taken out. How many balls remain altogether?",
+    "gold": 437,
+    "variant": "paraphrase",
+    "raw_output": "74",
+    "parsed": 74,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0006/reorder",
+    "prompt": "Exactly 7 balls are taken out overall. Initially there were 6 boxes with 74 balls in each. How many balls remain?",
+    "gold": 437,
+    "variant": "reorder",
+    "raw_output": "The total number of balls initially is $ 6 \\times 74 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0006/edit",
+    "prompt": "There are 6 boxes, each containing 74 balls. Exactly 7 balls are removed from each box. How many balls remain?",
+    "gold": 402,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 6 boxes, each containing 74 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0007/original",
+    "prompt": "There are 5 boxes, each containing 54 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 268,
+    "variant": "original",
+    "raw_output": "2 balls are removed in total. Each box contains 54 balls. There",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0007/paraphrase",
+    "prompt": "From 5 boxes holding 54 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 268,
+    "variant": "paraphrase",
+    "raw_output": "2 balls are taken out.  \n5 boxes × 54 balls = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0007/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 5 boxes with 54 balls in each. How many balls remain?",
+    "gold": 268,
+    "variant": "reorder",
+    "raw_output": "The problem states that exactly 2 balls are taken out. Initially, there were",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0007/edit",
+    "prompt": "There are 5 boxes, each containing 54 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 260,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 5 boxes, each containing 54 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0008/original",
+    "prompt": "There are 4 boxes, each containing 62 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 246,
+    "variant": "original",
+    "raw_output": "2 balls are removed in total.  \nThere are 4 boxes, each containing",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0008/paraphrase",
+    "prompt": "From 4 boxes holding 62 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 246,
+    "variant": "paraphrase",
+    "raw_output": "2 balls are taken out.  \nEach box has 62 balls, so",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0008/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 4 boxes with 62 balls in each. How many balls remain?",
+    "gold": 246,
+    "variant": "reorder",
+    "raw_output": "2 balls remain.",
+    "parsed": null,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0008/edit",
+    "prompt": "There are 4 boxes, each containing 62 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 240,
+    "variant": "edit",
+    "raw_output": "2 balls are removed from each box, and there are 4 boxes. So",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0009/original",
+    "prompt": "There are 11 boxes, each containing 79 balls. Exactly 10 balls are removed in total. How many balls remain?",
+    "gold": 859,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 11 \\times 79 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0009/paraphrase",
+    "prompt": "From 11 boxes holding 79 balls apiece, a combined total of 10 balls is taken out. How many balls remain altogether?",
+    "gold": 859,
+    "variant": "paraphrase",
+    "raw_output": "10 balls are taken out.  \nThere are 11 boxes, each",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0009/reorder",
+    "prompt": "Exactly 10 balls are taken out overall. Initially there were 11 boxes with 79 balls in each. How many balls remain?",
+    "gold": 859,
+    "variant": "reorder",
+    "raw_output": "The problem states that 10 balls are taken out overall. Initially, there",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0009/edit",
+    "prompt": "There are 11 boxes, each containing 79 balls. Exactly 10 balls are removed from each box. How many balls remain?",
+    "gold": 759,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 11 boxes, each containing 79",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0010/original",
+    "prompt": "There are 12 boxes, each containing 36 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 430,
+    "variant": "original",
+    "raw_output": "2 balls are removed in total.  \nThere are 12 boxes, each",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0010/paraphrase",
+    "prompt": "From 12 boxes holding 36 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 430,
+    "variant": "paraphrase",
+    "raw_output": "24",
+    "parsed": 24,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0010/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 12 boxes with 36 balls in each. How many balls remain?",
+    "gold": 430,
+    "variant": "reorder",
+    "raw_output": "The problem states that exactly 2 balls are taken out. Initially, there were",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0010/edit",
+    "prompt": "There are 12 boxes, each containing 36 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 408,
+    "variant": "edit",
+    "raw_output": "2 balls are removed from each box, and there are 12 boxes.",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0011/original",
+    "prompt": "There are 5 boxes, each containing 80 balls. Exactly 9 balls are removed in total. How many balls remain?",
+    "gold": 391,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 5 \\times 80 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0011/paraphrase",
+    "prompt": "From 5 boxes holding 80 balls apiece, a combined total of 9 balls is taken out. How many balls remain altogether?",
+    "gold": 391,
+    "variant": "paraphrase",
+    "raw_output": "9 balls are taken out.  \nThere are 5 boxes, each holding ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0011/reorder",
+    "prompt": "Exactly 9 balls are taken out overall. Initially there were 5 boxes with 80 balls in each. How many balls remain?",
+    "gold": 391,
+    "variant": "reorder",
+    "raw_output": "The total number of balls is calculated as follows:\n\n- Initially, there are $",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0011/edit",
+    "prompt": "There are 5 boxes, each containing 80 balls. Exactly 9 balls are removed from each box. How many balls remain?",
+    "gold": 355,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 5 boxes, each containing 80 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0012/original",
+    "prompt": "There are 7 boxes, each containing 91 balls. Exactly 6 balls are removed in total. How many balls remain?",
+    "gold": 631,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 7 \\times 91 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0012/paraphrase",
+    "prompt": "From 7 boxes holding 91 balls apiece, a combined total of 6 balls is taken out. How many balls remain altogether?",
+    "gold": 631,
+    "variant": "paraphrase",
+    "raw_output": "6 balls are taken out.  \nThere are 7 boxes, each holding ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0012/reorder",
+    "prompt": "Exactly 6 balls are taken out overall. Initially there were 7 boxes with 91 balls in each. How many balls remain?",
+    "gold": 631,
+    "variant": "reorder",
+    "raw_output": "The problem states that 6 balls are taken out overall. Initially, there were",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0012/edit",
+    "prompt": "There are 7 boxes, each containing 91 balls. Exactly 6 balls are removed from each box. How many balls remain?",
+    "gold": 595,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 7 boxes, each containing 91 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0013/original",
+    "prompt": "There are 4 boxes, each containing 75 balls. Exactly 6 balls are removed in total. How many balls remain?",
+    "gold": 294,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 4 \\times 75 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0013/paraphrase",
+    "prompt": "From 4 boxes holding 75 balls apiece, a combined total of 6 balls is taken out. How many balls remain altogether?",
+    "gold": 294,
+    "variant": "paraphrase",
+    "raw_output": "6 balls are taken out. Each box has 75 balls, so the",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0013/reorder",
+    "prompt": "Exactly 6 balls are taken out overall. Initially there were 4 boxes with 75 balls in each. How many balls remain?",
+    "gold": 294,
+    "variant": "reorder",
+    "raw_output": "The total number of balls initially is $ 4 \\times 75 =",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0013/edit",
+    "prompt": "There are 4 boxes, each containing 75 balls. Exactly 6 balls are removed from each box. How many balls remain?",
+    "gold": 276,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 4 boxes, each containing 75 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0014/original",
+    "prompt": "There are 9 boxes, each containing 76 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 682,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 9 \\times 76 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0014/paraphrase",
+    "prompt": "From 9 boxes holding 76 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 682,
+    "variant": "paraphrase",
+    "raw_output": "2 balls are taken out.  \nThere are 9 boxes, each holding ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0014/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 9 boxes with 76 balls in each. How many balls remain?",
+    "gold": 682,
+    "variant": "reorder",
+    "raw_output": "The problem states that exactly 2 balls are taken out overall. Initially, there",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0014/edit",
+    "prompt": "There are 9 boxes, each containing 76 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 666,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 9 boxes, each containing 76 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0015/original",
+    "prompt": "There are 6 boxes, each containing 46 balls. Exactly 6 balls are removed in total. How many balls remain?",
+    "gold": 270,
+    "variant": "original",
+    "raw_output": "The total number of balls is $6 \\times 46 = 2",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0015/paraphrase",
+    "prompt": "From 6 boxes holding 46 balls apiece, a combined total of 6 balls is taken out. How many balls remain altogether?",
+    "gold": 270,
+    "variant": "paraphrase",
+    "raw_output": "The total number of balls is $ 6 \\text{ boxes} \\times",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0015/reorder",
+    "prompt": "Exactly 6 balls are taken out overall. Initially there were 6 boxes with 46 balls in each. How many balls remain?",
+    "gold": 270,
+    "variant": "reorder",
+    "raw_output": "0",
+    "parsed": 0,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0015/edit",
+    "prompt": "There are 6 boxes, each containing 46 balls. Exactly 6 balls are removed from each box. How many balls remain?",
+    "gold": 240,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 6 boxes, each containing 46 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0016/original",
+    "prompt": "There are 6 boxes, each containing 75 balls. Exactly 2 balls are removed in total. How many balls remain?",
+    "gold": 448,
+    "variant": "original",
+    "raw_output": "2 balls are removed in total.  \nThere are 6 boxes, each containing",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0016/paraphrase",
+    "prompt": "From 6 boxes holding 75 balls apiece, a combined total of 2 balls is taken out. How many balls remain altogether?",
+    "gold": 448,
+    "variant": "paraphrase",
+    "raw_output": "2 balls are taken out.  \nThere are 6 boxes, each holding ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0016/reorder",
+    "prompt": "Exactly 2 balls are taken out overall. Initially there were 6 boxes with 75 balls in each. How many balls remain?",
+    "gold": 448,
+    "variant": "reorder",
+    "raw_output": "The problem states that exactly 2 balls are taken out. Initially, there were",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0016/edit",
+    "prompt": "There are 6 boxes, each containing 75 balls. Exactly 2 balls are removed from each box. How many balls remain?",
+    "gold": 438,
+    "variant": "edit",
+    "raw_output": "2 balls are removed from each box, and there are 6 boxes. So",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0017/original",
+    "prompt": "There are 8 boxes, each containing 40 balls. Exactly 5 balls are removed in total. How many balls remain?",
+    "gold": 315,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 8 \\times 40 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0017/paraphrase",
+    "prompt": "From 8 boxes holding 40 balls apiece, a combined total of 5 balls is taken out. How many balls remain altogether?",
+    "gold": 315,
+    "variant": "paraphrase",
+    "raw_output": "5 balls are taken out.  \nThere are 8 boxes, each holding ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0017/reorder",
+    "prompt": "Exactly 5 balls are taken out overall. Initially there were 8 boxes with 40 balls in each. How many balls remain?",
+    "gold": 315,
+    "variant": "reorder",
+    "raw_output": "0",
+    "parsed": 0,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0017/edit",
+    "prompt": "There are 8 boxes, each containing 40 balls. Exactly 5 balls are removed from each box. How many balls remain?",
+    "gold": 280,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 8 boxes, each containing 40 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0018/original",
+    "prompt": "There are 6 boxes, each containing 83 balls. Exactly 10 balls are removed in total. How many balls remain?",
+    "gold": 488,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 6 \\times 83 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0018/paraphrase",
+    "prompt": "From 6 boxes holding 83 balls apiece, a combined total of 10 balls is taken out. How many balls remain altogether?",
+    "gold": 488,
+    "variant": "paraphrase",
+    "raw_output": "10 balls are taken out.  \nThere are 6 boxes, each holding",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0018/reorder",
+    "prompt": "Exactly 10 balls are taken out overall. Initially there were 6 boxes with 83 balls in each. How many balls remain?",
+    "gold": 488,
+    "variant": "reorder",
+    "raw_output": "The total number of balls is calculated as follows:\n\n- Initially, there are $",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0018/edit",
+    "prompt": "There are 6 boxes, each containing 83 balls. Exactly 10 balls are removed from each box. How many balls remain?",
+    "gold": 438,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 6 boxes, each containing 83 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0019/original",
+    "prompt": "There are 7 boxes, each containing 42 balls. Exactly 9 balls are removed in total. How many balls remain?",
+    "gold": 285,
+    "variant": "original",
+    "raw_output": "The total number of balls is $ 7 \\times 42 = ",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0019/paraphrase",
+    "prompt": "From 7 boxes holding 42 balls apiece, a combined total of 9 balls is taken out. How many balls remain altogether?",
+    "gold": 285,
+    "variant": "paraphrase",
+    "raw_output": "9",
+    "parsed": 9,
+    "reached_token_cap": false
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0019/reorder",
+    "prompt": "Exactly 9 balls are taken out overall. Initially there were 7 boxes with 42 balls in each. How many balls remain?",
+    "gold": 285,
+    "variant": "reorder",
+    "raw_output": "The total number of balls is calculated as follows:\n\n- Initially, there are $",
+    "parsed": null,
+    "reached_token_cap": true
+  },
+  {
+    "run": "A",
+    "id": "s20261125-groups_2-0019/edit",
+    "prompt": "There are 7 boxes, each containing 42 balls. Exactly 9 balls are removed from each box. How many balls remain?",
+    "gold": 231,
+    "variant": "edit",
+    "raw_output": "The problem states that there are 7 boxes, each containing 42 balls",
+    "parsed": null,
+    "reached_token_cap": true
+  }
+]

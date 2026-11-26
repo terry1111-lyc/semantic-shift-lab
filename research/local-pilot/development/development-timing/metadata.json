@@ -1,0 +1,24 @@
+{
+  "is_demo": false,
+  "backend": "hf-cpu-batched",
+  "model": "Qwen/Qwen3-0.6B",
+  "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+  "dataset_sha256": "639a096cd65c89c0387017a751ca29b02f3603718f182c9113b749add375d286",
+  "prompt_sha256": "6678b773404b6971d9dc2bff8ab7b175dce3fbaf440d4683c78cbd761be9e9d5",
+  "status": "complete",
+  "max_new_tokens": 96,
+  "batch_size": 4,
+  "decoding": "greedy",
+  "enable_thinking": false,
+  "device": "cpu",
+  "torch_threads": 4,
+  "adapter": null,
+  "versions": {
+    "torch": "2.15.0",
+    "transformers": "5.24.0"
+  },
+  "created_utc": "2026-11-25T04:35:50.615103+00:00",
+  "inference_seconds": 84.63095191703178,
+  "generated_tokens": 1031,
+  "token_cap_fraction": 0.3333333333333333
+}

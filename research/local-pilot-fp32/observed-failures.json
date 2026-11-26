@@ -1,0 +1,329 @@
+{
+  "diagnostics": [
+    {
+      "run": "A",
+      "original_correct": 0,
+      "paraphrase_fail_given_original_correct": 0,
+      "unchanged_edit_given_original_correct": 0,
+      "paraphrase_failure_groups": [],
+      "unchanged_edit_groups": []
+    },
+    {
+      "run": "B-seed17",
+      "original_correct": 16,
+      "paraphrase_fail_given_original_correct": 13,
+      "unchanged_edit_given_original_correct": 0,
+      "paraphrase_failure_groups": [
+        "s20261125-transfer_2-0000",
+        "s20261125-transfer_2-0001",
+        "s20261125-transfer_2-0003",
+        "s20261125-transfer_2-0004",
+        "s20261125-transfer_2-0007",
+        "s20261125-transfer_2-0008",
+        "s20261125-transfer_2-0010",
+        "s20261125-transfer_2-0011",
+        "s20261125-transfer_2-0012",
+        "s20261125-transfer_2-0013",
+        "s20261125-transfer_2-0014",
+        "s20261125-transfer_2-0017",
+        "s20261125-transfer_2-0018"
+      ],
+      "unchanged_edit_groups": []
+    },
+    {
+      "run": "C-seed17",
+      "original_correct": 12,
+      "paraphrase_fail_given_original_correct": 8,
+      "unchanged_edit_given_original_correct": 0,
+      "paraphrase_failure_groups": [
+        "s20261125-transfer_2-0000",
+        "s20261125-transfer_2-0001",
+        "s20261125-transfer_2-0003",
+        "s20261125-transfer_2-0004",
+        "s20261125-transfer_2-0008",
+        "s20261125-transfer_2-0012",
+        "s20261125-transfer_2-0013",
+        "s20261125-transfer_2-0017"
+      ],
+      "unchanged_edit_groups": []
+    },
+    {
+      "run": "E-seed17",
+      "original_correct": 17,
+      "paraphrase_fail_given_original_correct": 11,
+      "unchanged_edit_given_original_correct": 3,
+      "paraphrase_failure_groups": [
+        "s20261125-transfer_2-0000",
+        "s20261125-transfer_2-0001",
+        "s20261125-transfer_2-0002",
+        "s20261125-transfer_2-0003",
+        "s20261125-transfer_2-0004",
+        "s20261125-transfer_2-0008",
+        "s20261125-transfer_2-0010",
+        "s20261125-transfer_2-0011",
+        "s20261125-transfer_2-0012",
+        "s20261125-transfer_2-0016",
+        "s20261125-transfer_2-0018"
+      ],
+      "unchanged_edit_groups": [
+        "s20261125-transfer_2-0008",
+        "s20261125-transfer_2-0014",
+        "s20261125-transfer_2-0017"
+      ]
+    },
+    {
+      "run": "B-seed29",
+      "original_correct": 16,
+      "paraphrase_fail_given_original_correct": 13,
+      "unchanged_edit_given_original_correct": 0,
+      "paraphrase_failure_groups": [
+        "s20261125-transfer_2-0000",
+        "s20261125-transfer_2-0001",
+        "s20261125-transfer_2-0003",
+        "s20261125-transfer_2-0004",
+        "s20261125-transfer_2-0007",
+        "s20261125-transfer_2-0008",
+        "s20261125-transfer_2-0009",
+        "s20261125-transfer_2-0010",
+        "s20261125-transfer_2-0011",
+        "s20261125-transfer_2-0012",
+        "s20261125-transfer_2-0013",
+        "s20261125-transfer_2-0016",
+        "s20261125-transfer_2-0017"
+      ],
+      "unchanged_edit_groups": []
+    },
+    {
+      "run": "C-seed29",
+      "original_correct": 10,
+      "paraphrase_fail_given_original_correct": 6,
+      "unchanged_edit_given_original_correct": 0,
+      "paraphrase_failure_groups": [
+        "s20261125-transfer_2-0000",
+        "s20261125-transfer_2-0004",
+        "s20261125-transfer_2-0007",
+        "s20261125-transfer_2-0010",
+        "s20261125-transfer_2-0012",
+        "s20261125-transfer_2-0016"
+      ],
+      "unchanged_edit_groups": []
+    },
+    {
+      "run": "E-seed29",
+      "original_correct": 19,
+      "paraphrase_fail_given_original_correct": 14,
+      "unchanged_edit_given_original_correct": 1,
+      "paraphrase_failure_groups": [
+        "s20261125-transfer_2-0000",
+        "s20261125-transfer_2-0001",
+        "s20261125-transfer_2-0002",
+        "s20261125-transfer_2-0003",
+        "s20261125-transfer_2-0004",
+        "s20261125-transfer_2-0008",
+        "s20261125-transfer_2-0009",
+        "s20261125-transfer_2-0011",
+        "s20261125-transfer_2-0012",
+        "s20261125-transfer_2-0013",
+        "s20261125-transfer_2-0015",
+        "s20261125-transfer_2-0016",
+        "s20261125-transfer_2-0018",
+        "s20261125-transfer_2-0019"
+      ],
+      "unchanged_edit_groups": [
+        "s20261125-transfer_2-0008"
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "run": "B-seed17",
+      "group_id": "s20261125-transfer_2-0000",
+      "selection": "first original-correct / paraphrase-wrong",
+      "variants": [
+        {
+          "answer": 57,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0000",
+          "id": "s20261125-transfer_2-0000/original",
+          "program": [
+            "+",
+            [
+              "+",
+              43,
+              2
+            ],
+            12
+          ],
+          "prompt": "Lin has 43 cards, receives 2 cards, then receives 12 cards. How many cards does Lin have?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "original",
+          "raw_output": "57"
+        },
+        {
+          "answer": 57,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0000",
+          "id": "s20261125-transfer_2-0000/paraphrase",
+          "program": [
+            "+",
+            [
+              "+",
+              43,
+              2
+            ],
+            12
+          ],
+          "prompt": "Lin adds two gifts of 2 and 12 cards to an initial collection of 43. How many cards are there now?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "paraphrase",
+          "raw_output": "49"
+        },
+        {
+          "answer": 57,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0000",
+          "id": "s20261125-transfer_2-0000/reorder",
+          "program": [
+            "+",
+            [
+              "+",
+              43,
+              2
+            ],
+            12
+          ],
+          "prompt": "A second gift contains 12 cards and the first contains 2. Lin had 43 cards before receiving both. How many now?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "reorder",
+          "raw_output": "57"
+        },
+        {
+          "answer": 33,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0000",
+          "id": "s20261125-transfer_2-0000/edit",
+          "program": [
+            "-",
+            [
+              "+",
+              43,
+              2
+            ],
+            12
+          ],
+          "prompt": "Lin has 43 cards, receives 2 cards, then gives away 12 cards. How many cards does Lin have?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "edit",
+          "raw_output": "33"
+        }
+      ]
+    },
+    {
+      "run": "E-seed17",
+      "group_id": "s20261125-transfer_2-0008",
+      "selection": "first original-correct / unchanged-edit",
+      "variants": [
+        {
+          "answer": 99,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0008",
+          "id": "s20261125-transfer_2-0008/original",
+          "program": [
+            "+",
+            [
+              "+",
+              79,
+              12
+            ],
+            8
+          ],
+          "prompt": "Lin has 79 cards, receives 12 cards, then receives 8 cards. How many cards does Lin have?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "original",
+          "raw_output": "99"
+        },
+        {
+          "answer": 99,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0008",
+          "id": "s20261125-transfer_2-0008/paraphrase",
+          "program": [
+            "+",
+            [
+              "+",
+              79,
+              12
+            ],
+            8
+          ],
+          "prompt": "Lin adds two gifts of 12 and 8 cards to an initial collection of 79. How many cards are there now?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "paraphrase",
+          "raw_output": "107"
+        },
+        {
+          "answer": 99,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0008",
+          "id": "s20261125-transfer_2-0008/reorder",
+          "program": [
+            "+",
+            [
+              "+",
+              79,
+              12
+            ],
+            8
+          ],
+          "prompt": "A second gift contains 8 cards and the first contains 12. Lin had 79 cards before receiving both. How many now?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "reorder",
+          "raw_output": "97"
+        },
+        {
+          "answer": 83,
+          "family": "transfer",
+          "group_id": "s20261125-transfer_2-0008",
+          "id": "s20261125-transfer_2-0008/edit",
+          "program": [
+            "-",
+            [
+              "+",
+              79,
+              12
+            ],
+            8
+          ],
+          "prompt": "Lin has 79 cards, receives 12 cards, then gives away 8 cards. How many cards does Lin have?",
+          "review_status": "unreviewed",
+          "schema_version": 1,
+          "split": "test",
+          "template_id": "transfer_2",
+          "variant": "edit",
+          "raw_output": "99"
+        }
+      ]
+    }
+  ]
+}

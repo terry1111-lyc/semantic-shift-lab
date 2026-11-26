@@ -1,0 +1,67 @@
+{
+  "is_demo": false,
+  "status": "MODEL RUN; HUMAN AUDIT REQUIRED",
+  "dataset_sha256": "639a096cd65c89c0387017a751ca29b02f3603718f182c9113b749add375d286",
+  "validation": {
+    "records": 12,
+    "groups": 3,
+    "templates": 3,
+    "unreviewed_records": 12
+  },
+  "metrics": {
+    "original_accuracy": {
+      "value": 0.0,
+      "template_cluster_bootstrap_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "invariant_all_correct": {
+      "value": 0.0,
+      "template_cluster_bootstrap_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "edit_pair_correct": {
+      "value": 0.0,
+      "template_cluster_bootstrap_95ci": [
+        0.0,
+        0.0
+      ]
+    },
+    "group_all_correct": {
+      "value": 0.0,
+      "template_cluster_bootstrap_95ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "format_failure_rate": 1.0,
+  "output_tokens_total": 1031,
+  "token_coverage": 1.0,
+  "by_family": {
+    "comparison": {
+      "original_accuracy": 0.0,
+      "invariant_all_correct": 0.0,
+      "edit_pair_correct": 0.0,
+      "group_all_correct": 0.0
+    },
+    "groups": {
+      "original_accuracy": 0.0,
+      "invariant_all_correct": 0.0,
+      "edit_pair_correct": 0.0,
+      "group_all_correct": 0.0
+    },
+    "transfer": {
+      "original_accuracy": 0.0,
+      "invariant_all_correct": 0.0,
+      "edit_pair_correct": 0.0,
+      "group_all_correct": 0.0
+    }
+  },
+  "uncertainty_note": "Exploratory percentile bootstrap over template IDs; few templates give unreliable population uncertainty. Not a training-seed CI.",
+  "model": "Qwen/Qwen3-0.6B",
+  "backend": "hf-cpu-batched"
+}

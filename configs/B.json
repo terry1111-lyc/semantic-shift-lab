@@ -1,0 +1,14 @@
+{
+  "model": "REPLACE_WITH_MODEL_ID",
+  "revision": "REPLACE_WITH_40_CHARACTER_COMMIT_SHA",
+  "condition": "B",
+  "seed": 17,
+  "device": "cpu",
+  "max_length": 512,
+  "learning_rate": 0.0001,
+  "token_budget": 100000,
+  "max_steps": 10000,
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "target_modules": "all-linear"
+}

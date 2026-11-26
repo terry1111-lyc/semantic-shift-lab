@@ -1,0 +1,77 @@
+[Release copy: local workspace and environment paths redacted; raw log retained locally.]
+W1125 15:40:05.086000 78970 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 7838.93it/s]
+{"phase": "inference", "run": "A", "done": 8, "total": 240, "batch_seconds": 18.41}
+{"phase": "inference", "run": "A", "done": 16, "total": 240, "batch_seconds": 19.29}
+{"phase": "inference", "run": "A", "done": 24, "total": 240, "batch_seconds": 18.03}
+{"phase": "inference", "run": "A", "done": 32, "total": 240, "batch_seconds": 19.37}
+{"phase": "inference", "run": "A", "done": 40, "total": 240, "batch_seconds": 20.6}
+{"phase": "inference", "run": "A", "done": 48, "total": 240, "batch_seconds": 19.08}
+{"phase": "inference", "run": "A", "done": 56, "total": 240, "batch_seconds": 23.13}
+{"phase": "inference", "run": "A", "done": 64, "total": 240, "batch_seconds": 20.67}
+{"phase": "inference", "run": "A", "done": 72, "total": 240, "batch_seconds": 16.58}
+{"phase": "inference", "run": "A", "done": 80, "total": 240, "batch_seconds": 17.14}
+{"phase": "inference", "run": "A", "done": 88, "total": 240, "batch_seconds": 17.23}
+{"phase": "inference", "run": "A", "done": 96, "total": 240, "batch_seconds": 14.73}
+{"phase": "inference", "run": "A", "done": 104, "total": 240, "batch_seconds": 14.45}
+{"phase": "inference", "run": "A", "done": 112, "total": 240, "batch_seconds": 15.12}
+{"phase": "inference", "run": "A", "done": 120, "total": 240, "batch_seconds": 16.25}
+{"phase": "inference", "run": "A", "done": 128, "total": 240, "batch_seconds": 13.87}
+{"phase": "inference", "run": "A", "done": 136, "total": 240, "batch_seconds": 14.01}
+{"phase": "inference", "run": "A", "done": 144, "total": 240, "batch_seconds": 14.05}
+{"phase": "inference", "run": "A", "done": 152, "total": 240, "batch_seconds": 14.47}
+{"phase": "inference", "run": "A", "done": 160, "total": 240, "batch_seconds": 16.37}
+{"phase": "inference", "run": "A", "done": 168, "total": 240, "batch_seconds": 15.83}
+{"phase": "inference", "run": "A", "done": 176, "total": 240, "batch_seconds": 16.56}
+{"phase": "inference", "run": "A", "done": 184, "total": 240, "batch_seconds": 15.99}
+{"phase": "inference", "run": "A", "done": 192, "total": 240, "batch_seconds": 15.95}
+{"phase": "inference", "run": "A", "done": 200, "total": 240, "batch_seconds": 18.27}
+{"phase": "inference", "run": "A", "done": 208, "total": 240, "batch_seconds": 15.95}
+{"phase": "inference", "run": "A", "done": 216, "total": 240, "batch_seconds": 15.6}
+{"phase": "inference", "run": "A", "done": 224, "total": 240, "batch_seconds": 15.69}
+{"phase": "inference", "run": "A", "done": 232, "total": 240, "batch_seconds": 15.8}
+{"phase": "inference", "run": "A", "done": 240, "total": 240, "batch_seconds": 16.11}
+{"phase": "completed", "run": "A", "metrics": {"original_accuracy": {"value": 0.0, "template_cluster_bootstrap_95ci": [0.0, 0.0]}, "invariant_all_correct": {"value": 0.0, "template_cluster_bootstrap_95ci": [0.0, 0.0]}, "edit_pair_correct": {"value": 0.0, "template_cluster_bootstrap_95ci": [0.0, 0.0]}, "group_all_correct": {"value": 0.0, "template_cluster_bootstrap_95ci": [0.0, 0.0]}}, "seconds": 504.68959933309816}
+{"phase": "training-start", "run": "B-seed17"}
+W1125 15:48:37.003000 79235 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 311/311 [00:00<00:00, 11765.60it/s]
+{"phase": "training", "step": 10, "processed_tokens": 635, "loss": 1.2014878988265991}
+Traceback (most recent call last):
+  File "<WORKSPACE>/outputs/semantic-shift-lab/research/run_local_study.py", line 132, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "<WORKSPACE>/outputs/semantic-shift-lab/research/run_local_study.py", line 119, in main
+    train(cfg_path,study/'data.jsonl',checkpoint)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<WORKSPACE>/outputs/semantic-shift-lab/semantic_shift/training.py", line 98, in train
+    loss.backward()
+    ~~~~~~~~~~~~~^^
+  File "<PYTHON_ENV>/lib/python3.13/site-packages/torch/_tensor.py", line 623, in backward
+    torch.autograd.backward(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        self, gradient, retain_graph, create_graph, inputs=inputs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<PYTHON_ENV>/lib/python3.13/site-packages/torch/autograd/__init__.py", line 395, in backward
+    _engine_run_backward(
+    ~~~~~~~~~~~~~~~~~~~~^
+        tensors,
+        ^^^^^^^^
+    ...<5 lines>...
+        accumulate_grad=True,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "<PYTHON_ENV>/lib/python3.13/site-packages/torch/autograd/graph.py", line 1113, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        t_outputs, *args, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # Calls into the C++ engine to run the backward pass
+    ^
+KeyboardInterrupt

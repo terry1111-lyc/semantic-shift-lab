@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "is_demo": true,
+  "backend": "demo",
+  "model": "label-aware-fault-injector",
+  "revision": null,
+  "adapter_sha256": null,
+  "split": "test",
+  "dataset_sha256": "ecaef671ad1dc03d995de84732f5dab023fec7fe4dd433e04efb1a3d582b7cee",
+  "source_sha256": "974149507c831a94ba76816df896ace07717a10548dd751a4ef6b3dfa1567442",
+  "prompt_sha256": "c47ab973285d65c7d567d61b77c00167e080bfbc5c2e301bb1b93a4d2d2da8d2",
+  "seed": 17,
+  "max_new_tokens": 256,
+  "decoding": "synthetic",
+  "python": "3.14.7",
+  "device": "cpu",
+  "created_utc": "2026-11-24T14:48:48.118181+00:00",
+  "status": "complete"
+}

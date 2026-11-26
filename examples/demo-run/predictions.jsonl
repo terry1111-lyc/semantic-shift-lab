@@ -1,0 +1,36 @@
+{"id": "s17-transfer_2-0000/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 95"}
+{"id": "s17-transfer_2-0000/paraphrase", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 95"}
+{"id": "s17-transfer_2-0000/reorder", "injected_fault": "format_failure", "latency_seconds": null, "output_tokens": null, "raw_output": "The answer is 95."}
+{"id": "s17-transfer_2-0000/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 75"}
+{"id": "s17-transfer_2-0001/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 46"}
+{"id": "s17-transfer_2-0001/paraphrase", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 46"}
+{"id": "s17-transfer_2-0001/reorder", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 46"}
+{"id": "s17-transfer_2-0001/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 36"}
+{"id": "s17-transfer_2-0002/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 69"}
+{"id": "s17-transfer_2-0002/paraphrase", "injected_fault": "rewrite_failure", "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 70"}
+{"id": "s17-transfer_2-0002/reorder", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 69"}
+{"id": "s17-transfer_2-0002/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 49"}
+{"id": "s17-comparison_2-0000/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 177"}
+{"id": "s17-comparison_2-0000/paraphrase", "injected_fault": "rewrite_failure", "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 178"}
+{"id": "s17-comparison_2-0000/reorder", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 177"}
+{"id": "s17-comparison_2-0000/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 163"}
+{"id": "s17-comparison_2-0001/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 79"}
+{"id": "s17-comparison_2-0001/paraphrase", "injected_fault": "rewrite_failure", "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 80"}
+{"id": "s17-comparison_2-0001/reorder", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 79"}
+{"id": "s17-comparison_2-0001/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 65"}
+{"id": "s17-comparison_2-0002/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 189"}
+{"id": "s17-comparison_2-0002/paraphrase", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 189"}
+{"id": "s17-comparison_2-0002/reorder", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 189"}
+{"id": "s17-comparison_2-0002/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 175"}
+{"id": "s17-groups_2-0000/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 738"}
+{"id": "s17-groups_2-0000/paraphrase", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 738"}
+{"id": "s17-groups_2-0000/reorder", "injected_fault": "format_failure", "latency_seconds": null, "output_tokens": null, "raw_output": "The answer is 738."}
+{"id": "s17-groups_2-0000/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 672"}
+{"id": "s17-groups_2-0001/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 514"}
+{"id": "s17-groups_2-0001/paraphrase", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 514"}
+{"id": "s17-groups_2-0001/reorder", "injected_fault": "format_failure", "latency_seconds": null, "output_tokens": null, "raw_output": "The answer is 514."}
+{"id": "s17-groups_2-0001/edit", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 490"}
+{"id": "s17-groups_2-0002/original", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 205"}
+{"id": "s17-groups_2-0002/paraphrase", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 205"}
+{"id": "s17-groups_2-0002/reorder", "injected_fault": null, "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 205"}
+{"id": "s17-groups_2-0002/edit", "injected_fault": "ignored_fact_edit", "latency_seconds": null, "output_tokens": null, "raw_output": "FINAL: 205"}

@@ -1,0 +1,20 @@
+[
+  {
+    "tokens": 60,
+    "forward_seconds": 0.7990449590142816,
+    "backward_seconds": 0.4012881671078503,
+    "optimizer_seconds": 0.011673291912302375
+  },
+  {
+    "tokens": 63,
+    "forward_seconds": 0.3536664170678705,
+    "backward_seconds": 0.392472208943218,
+    "optimizer_seconds": 0.00788937509059906
+  },
+  {
+    "tokens": 62,
+    "forward_seconds": 0.39532887493260205,
+    "backward_seconds": 0.41397183295339346,
+    "optimizer_seconds": 0.007903541205450892
+  }
+]

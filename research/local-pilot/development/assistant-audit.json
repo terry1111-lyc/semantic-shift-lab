@@ -1,0 +1,110 @@
+[
+  {
+    "id": "s20261125-transfer_1-0000/original",
+    "gold": 83,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Lin starts with 98 cards.  \nHe gives away 4 cards first, then 11 more.  \nSo, the total cards given away are $ 4 + 11 = 15 $.  \n\nThe number of cards remaining is:  \n$$ 98 - 15 = 83 $$\n\n**Final answer:**  \n$$ \\boxed{83} $$",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-transfer_1-0000/paraphrase",
+    "gold": 83,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "We have 98 cards in total. Lin hands 4 cards to one friend and 11 cards to another. \n\nSo, the total cards given away are:\n$$ 4 + 11 = 15 $$\n\nThe number of cards left is:\n$$ 98 - 15 = 83 $$\n\n**Final answer:** $\\boxed{83}$",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-transfer_1-0000/reorder",
+    "gold": 83,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "We start with 98 cards. Lin gives both gifts: the second gift has 11 cards and the first has 4 cards. So, the total cards given away are:\n\n$$\n11 + 4 = 15\n$$\n\nNow, we subtract the total given away from the initial number of cards:\n\n$$\n98 - 15 = 83\n$$\n\n**Final answer:** $\\boxed{83}$",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-transfer_1-0000/edit",
+    "gold": 105,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Lin starts with 98 cards. She gives away 4, so she has $ 98 - 4 = 94 $ cards. Then she receives 11 cards, so she now has $ 94 + 11 = 105 $ cards. \n\nThe number of cards remaining is:\n\n$$\n\\boxed{105}\n$$\n\nFINAL: <integer>",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-comparison_1-0000/original",
+    "gold": 55,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Mia has 39 books.  \nNoah has 12 more than Mia, so Noah has $ 39 + 12 = 51 $ books.  \n\nAva has 4 more than Noah, so Ava has $ 51 + 4 = 55 $ books.  \n\n**Final answer:** $\\boxed{55}$",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-comparison_1-0000/paraphrase",
+    "gold": 55,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Let's solve the problem step by step:\n\n- Mia has 39 books.\n- Noah has 12 more than Mia: $ 39 + 12 = 51 $ books.\n- Ava has 4 more books than Noah: $ 51 + 4 = 55 $ books.\n\n**Final answer:**  \n**55**",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-comparison_1-0000/reorder",
+    "gold": 55,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Let's solve the problem step by step:\n\n1. Mia has 39 books.\n2. Noah has 12 more than Mia, so:\n   $$\n   \\text{Noah} = 39 + 12 = 51\n   $$\n3. Ava has 4 more books than Noah, so:\n   $$\n   \\text{Ava} = 51 + 4 = 55\n   $$\n\n**",
+    "truncated": true,
+    "adjudication": "Truncated response; excluded from the completed-answer observation.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-comparison_1-0000/edit",
+    "gold": 47,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Mia has 39 books.  \nNoah has 12 more than Mia, so Noah has $ 39 + 12 = 51 $ books.  \n\nAva has 4 fewer than Noah, so Ava has $ 51 - 4 = 47 $ books.  \n\n**Final answer:** $\\boxed{47}$",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-groups_1-0000/original",
+    "gold": 572,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Each of the 11 boxes contains 60 balls, and exactly 8 balls are removed from each box.  \nSo, the total number of balls removed is:  \n$$ 11 \\times 8 = 88 $$\n\nEach box originally had 60 balls, so the total number of balls remaining is:  \n$$ 11 \\times 60 - 88 = 660 - 88 = 572",
+    "truncated": true,
+    "adjudication": "Truncated response; excluded from the completed-answer observation.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-groups_1-0000/paraphrase",
+    "gold": 572,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "We start with 11 boxes, each containing 60 balls. The total number of balls is:\n\n$$\n11 \\times 60 = 660\n$$\n\nEach box is losing 8 balls, so we subtract 8 balls from each box:\n\n$$\n660 - 8 \\times 11 = 660 - 88 = 572\n$$\n\n**Final answer:** $\\boxed{57",
+    "truncated": true,
+    "adjudication": "Truncated response; excluded from the completed-answer observation.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-groups_1-0000/reorder",
+    "gold": 572,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "We are told:\n\n- There are **11 boxes**.\n- Each box initially holds **60 balls**.\n- **8 balls are removed from every box**.\n\n### Step 1: Calculate the total number of balls initially\n$$\n11 \\text{ boxes} \\times 60 \\text{ balls per box} = 660 \\text{ balls}\n$$\n\n### Step 2: Calculate the total number of balls removed\n$$\n",
+    "truncated": true,
+    "adjudication": "Truncated response; excluded from the completed-answer observation.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  },
+  {
+    "id": "s20261125-groups_1-0000/edit",
+    "gold": 748,
+    "reviewer_type": "AI assistant; no independent human review",
+    "raw_output": "Each of the 11 boxes originally contains 60 balls.  \nExactly 8 balls are added to each box.  \n\nSo, the total number of balls now is:  \n$$ 11 \\times (60 + 8) = 11 \\times 68 = 748 $$\n\n**Final answer:**  \n$$ \\boxed{748} $$",
+    "truncated": false,
+    "adjudication": "Untruncated response states the correct mathematical answer, but violates strict output format.",
+    "use": "development measurement diagnostic only; does not replace primary test scoring"
+  }
+]

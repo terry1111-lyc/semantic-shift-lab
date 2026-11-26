@@ -1,0 +1,132 @@
+{
+  "release": "0.2.0",
+  "date": "2026-11-26",
+  "timezone": "Australia/Sydney",
+  "research_status": "completed exploratory local pilot; no superiority claim",
+  "software_tests": {
+    "passed": 32,
+    "optional_real_library_integration_included": true,
+    "source": "full test run after explicit float32 loading; no later changes to frozen runtime files",
+    "raw_local_log_sha256": "f893ee2b523bedff95927fb565119dc6faf1532b1563cb9c73cf418df94a2b1b"
+  },
+  "saved_evidence_verification": {
+    "command": "python research/verify_results.py",
+    "runs": 7,
+    "predictions_rescored": 1680,
+    "frozen_source_files_matched": 5,
+    "training_histories_checked": 6,
+    "status": "passed"
+  },
+  "adapter_export_verification": {
+    "status": "passed",
+    "method": "Reload portable adapter against original pinned local base, CPU float32, batch8, greedy16 tokens, same first batch as study",
+    "total_reproduced_outputs": 48,
+    "runs": {
+      "B-seed17": {
+        "matched_outputs": 8,
+        "test_ids": [
+          "s20261125-transfer_2-0000/original",
+          "s20261125-transfer_2-0000/paraphrase",
+          "s20261125-transfer_2-0000/reorder",
+          "s20261125-transfer_2-0000/edit",
+          "s20261125-transfer_2-0001/original",
+          "s20261125-transfer_2-0001/paraphrase",
+          "s20261125-transfer_2-0001/reorder",
+          "s20261125-transfer_2-0001/edit"
+        ],
+        "weights_sha256_verified": true
+      },
+      "B-seed29": {
+        "matched_outputs": 8,
+        "test_ids": [
+          "s20261125-transfer_2-0000/original",
+          "s20261125-transfer_2-0000/paraphrase",
+          "s20261125-transfer_2-0000/reorder",
+          "s20261125-transfer_2-0000/edit",
+          "s20261125-transfer_2-0001/original",
+          "s20261125-transfer_2-0001/paraphrase",
+          "s20261125-transfer_2-0001/reorder",
+          "s20261125-transfer_2-0001/edit"
+        ],
+        "weights_sha256_verified": true
+      },
+      "C-seed17": {
+        "matched_outputs": 8,
+        "test_ids": [
+          "s20261125-transfer_2-0000/original",
+          "s20261125-transfer_2-0000/paraphrase",
+          "s20261125-transfer_2-0000/reorder",
+          "s20261125-transfer_2-0000/edit",
+          "s20261125-transfer_2-0001/original",
+          "s20261125-transfer_2-0001/paraphrase",
+          "s20261125-transfer_2-0001/reorder",
+          "s20261125-transfer_2-0001/edit"
+        ],
+        "weights_sha256_verified": true
+      },
+      "C-seed29": {
+        "matched_outputs": 8,
+        "test_ids": [
+          "s20261125-transfer_2-0000/original",
+          "s20261125-transfer_2-0000/paraphrase",
+          "s20261125-transfer_2-0000/reorder",
+          "s20261125-transfer_2-0000/edit",
+          "s20261125-transfer_2-0001/original",
+          "s20261125-transfer_2-0001/paraphrase",
+          "s20261125-transfer_2-0001/reorder",
+          "s20261125-transfer_2-0001/edit"
+        ],
+        "weights_sha256_verified": true
+      },
+      "E-seed17": {
+        "matched_outputs": 8,
+        "test_ids": [
+          "s20261125-transfer_2-0000/original",
+          "s20261125-transfer_2-0000/paraphrase",
+          "s20261125-transfer_2-0000/reorder",
+          "s20261125-transfer_2-0000/edit",
+          "s20261125-transfer_2-0001/original",
+          "s20261125-transfer_2-0001/paraphrase",
+          "s20261125-transfer_2-0001/reorder",
+          "s20261125-transfer_2-0001/edit"
+        ],
+        "weights_sha256_verified": true
+      },
+      "E-seed29": {
+        "matched_outputs": 8,
+        "test_ids": [
+          "s20261125-transfer_2-0000/original",
+          "s20261125-transfer_2-0000/paraphrase",
+          "s20261125-transfer_2-0000/reorder",
+          "s20261125-transfer_2-0000/edit",
+          "s20261125-transfer_2-0001/original",
+          "s20261125-transfer_2-0001/paraphrase",
+          "s20261125-transfer_2-0001/reorder",
+          "s20261125-transfer_2-0001/edit"
+        ],
+        "weights_sha256_verified": true
+      }
+    }
+  },
+  "figures": {
+    "matplotlib_version": "3.11.2",
+    "results_png_and_training_loss_png_visually_inspected": true
+  },
+  "documentation": {
+    "broken_local_markdown_links": 0,
+    "personal_absolute_paths_in_published_text": 0
+  },
+  "compute": {
+    "cloud_spend": 0,
+    "paid_resources_used": false,
+    "device": "CPU float32; Apple M1 16 GB"
+  },
+  "limitations": [
+    "No independent human semantic audit",
+    "Three test templates and two seeds",
+    "Baseline format/truncation floor",
+    "Unequal training-example diversity",
+    "Prior baseline seen before engineering rerun",
+    "No external benchmark or second model family"
+  ]
+}

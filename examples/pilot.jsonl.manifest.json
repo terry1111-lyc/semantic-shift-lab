@@ -1,0 +1,12 @@
+{
+  "records": 108,
+  "groups": 27,
+  "templates": 9,
+  "unreviewed_records": 108,
+  "sha256": "974149507c831a94ba76816df896ace07717a10548dd751a4ef6b3dfa1567442",
+  "seed": 17,
+  "per_template": 3,
+  "version": "0.1.0",
+  "license": "MIT",
+  "note": "Synthetic pilot. Structural validation does not substitute for semantic review."
+}
